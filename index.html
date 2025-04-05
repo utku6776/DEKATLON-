@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body  id="body" class="relative h-screen w-full">
+    <header id="header"  class="h-[120px] w-full bg-[#ffffff] flex items-center min-[1080px]:fixed min-[1080px]:top-0 z-[300]  "  >
+
+        <!--MENU button-->
+        <div id="menu-btn" class="flex px-10 h-full items-center">
+            <button class=" text-2xl flex flex-col "><i class="ri-menu-line"></i><span class="hidden sm:block  text-[15px]">MENU</span></button>
+        </div>
+
+
+        
+
+        
+        <!--logo-->
+        <div class="flex ">
+            <h1 class="text-3xl md:text-5xl font-bold"><a href="#">DEKATLON</a></h1>
+        </div>
+
+
+
+
+        <div class=" max-[1080px]:flex-1 ">
+            
+        </div>
+
+        <!--search-->
+        <div class="hidden  min-[1080px]:block w-1/2 h-10   flex justify-center mx-20  items-center rounded-[1rem]  flex-1">
+            <form class="flex w-full h-full   rounded-[1rem] relative ">
+                <input type="text" class=" text-nowrap  w-full bg-[#bdc3c7] rounded-[1rem]  p-5 placeholder-opacity-0 min-[1080px]:placeholder-opacity-100 text-black placeholder-black focus:outline-blue-900 border border-[#95a5a6] hover:border-4 border-[#95a5a6] duration-100 ease-in focus:border-none " placeholder="Bir urun arayin"  >
+                <button class="absolute right-4 top-1/2 -translate-y-1/2"><span class="text-2xl text-[#3643BA]"><i class="ri-search-line  bottom-[5px]"></i></span></button>
+            </form>
+        </div>
+
+
+        
+
+
+
+        <!--icons-->
+        <div class=" flex justify-start md:justify-end mx-50 md:mx-20  items-center space-x-7 h-full">
+            <div class="flex flex-col justify-start md:justify-end hidden md:block">
+                <a href="#"><i class="ri-question-line justify-center flex text-2xl"></i> <span class=" hidden md:block flex text-[15px]">iletisim</span></a>
+            </div>
+            <div class="flex flex-col justify-start md:justify-end">
+                <a href="#"><i class="ri-user-line justify-center flex text-2xl"></i> <span class="hidden md:block">Hesabim</span></a>
+            </div>
+            <div class="flex flex-col justify-start md:justify-end">
+                <a href="#"><i class="ri-shopping-cart-line  justify-center flex text-2xl"></i> <span class="hidden md:block">Sepetim</span></a>
+            </div>
+        </div>
+        
+    </header>
+
+
+    <!--search mobile-->
+    <header class="h-[25px] p-10  w-full min-[1080px]:hidden ">
+        <div class=" lg:block  h-10 w-full  flex justify-center   items-center rounded-[1rem]  flex-1">
+            <form class="flex w-full h-full   rounded-[1rem] relative ">
+                <input type="text" class=" text-nowrap   w-full bg-[#bdc3c7] rounded-[1rem]  p-5  text-black placeholder-black focus:outline-blue-900 border border-[#95a5a6] hover:border-4 border-[#95a5a6] duration-100 ease-in focus:border-none " placeholder="Bir urun arayin"  >
+                <button class="absolute right-4 top-1/2 -translate-y-1/2"><span class="text-2xl text-[#3643BA]"><i class="ri-search-line  bottom-[5px]"></i></span></button>
+            </form>
+        </div>
+
+
+        
+
+
+    </header>
+
+    <!--slider-->
+    <section class="mt-20  min-[1080px]:mt-[300px]  ">
+        <div class="swiper h-[200px] sm:h-[300px] min-[880px]:h-[400px] min-[1080px]:h-[600px] w-3/4">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper relative">
+              <!-- Slides -->
+              <div class="swiper-slide relative">
+                <img src="images/slider1.jpg" alt="gelinlik&damatlik" class="h-full w-full">
+                <div class="absolute bottom-[-50px] left-[100px] transform -translate-x-1/2 -translate-y-1/2 flex flex-col space-y-5 min-[1080px]:space-y-10">
+                    <h1 class="text-[10px] sm:text-[15px] sm:mr-[0px] min-[880px]:ml-[70px] mr-[69px] min-[880px]:text-2xl min-[1080px]:text-4xl min-[1080px]:ml-[200px] text-black">GELINLIK VE DAMATLIK</h1>
+                    <button class="border-none bg-blue-500 px-4   min-[1080px]:px-10 flex justify-center items-center text-white text-[10px] min-[880px]:text-[15px] min-[1080px]:text-2xl w-[50px] min-[880px]:w-[70px] min-[1080px]:w-[100px]   h-7  min-[1080px]:h-10 min-[1080px]:pb-0 pb-4  min-[367px]:ml-[25px]  sm:ml-[50px]   min-[880px]:ml-[150px] min-[1080px]:ml-[330px]">INCELE</button>
+                  </div>
+             </div>
+
+              <div class="swiper-slide relative">
+                <img src="images/slider2.jpg" alt="gelinlik&damatlik" class="h-full w-full">
+                <div class="absolute bottom-[-50px] left-[100px] transform -translate-x-1/2 -translate-y-1/2 flex flex-col space-y-5 min-[1080px]:space-y-10">
+                    <h1 class="text-[10px] sm:text-[15px] sm:mr-[0px] min-[880px]:ml-[70px] mr-[69px] min-[880px]:text-2xl min-[1080px]:text-4xl min-[1080px]:ml-[200px] text-black">AYAKKABILAR</h1>
+                    <button class="border-none bg-blue-500 px-4   min-[1080px]:px-10 flex justify-center items-center text-white text-[10px] min-[880px]:text-[15px] min-[1080px]:text-2xl w-[50px] min-[880px]:w-[70px] min-[1080px]:w-[100px]   h-8  min-[1080px]:h-10 min-[1080px]:pb-0 pb-4 ml-[6px] sm:ml-[20px]   min-[880px]:ml-[106px] min-[1080px]:ml-[250px]">INCELE</button>
+                  </div>
+            </div>
+            <div class="swiper-slide relative">
+                <img src="images/slider3.jpg" alt="gelinlik&damatlik" class="h-full w-full">
+                <div class="absolute bottom-[-50px] left-[100px] transform -translate-x-1/2 -translate-y-1/2 flex flex-col space-y-5 min-[1080px]:space-y-10">
+                    <h1 class="text-[10px] sm:text-[15px] sm:mr-[0px] min-[880px]:ml-[70px] mr-[69px] min-[880px]:text-2xl min-[1080px]:text-4xl min-[1080px]:ml-[200px] text-black">T-SHIRTLER</h1>
+                    <button class="border-none bg-blue-500 px-4   min-[1080px]:px-10 flex justify-center items-center text-white text-[10px] min-[880px]:text-[15px] min-[1080px]:text-2xl w-[50px] min-[880px]:w-[70px] min-[1080px]:w-[100px]   h-8  min-[1080px]:h-10 min-[1080px]:pb-0 pb-4 ml-[1px] sm:ml-[13px]   min-[880px]:ml-[96px] min-[1080px]:ml-[240px]">INCELE</button>
+                  </div>
+            </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination text-black"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev text-black hidden md:block"></div>
+            <div class="swiper-button-next text-black hidden md:block"></div>
+          
+           
+          </div>
+
+          
+    </section>
+
+
+    <!--MENU-->
+    <section  id="menu" class="h-screen w-3/4 md:w-2/4  min-[1087px]:w-1/4  py-10 fixed font-bold  left-0 top-0 z-[9999] bg-[#323894]  text-white p-4">
+        <nav>
+          <ul class="grid  text-white text-xl cursor-pointer ">
+            <li class="hover:bg-[#262e92] p-4"><a  href="#">SPORLAR</a></li>
+            <li class="hover:bg-[#262e92] p-4"><a href="#">KADIN</a></li>
+            <li class="hover:bg-[#262e92] p-4"><a href="#">ERKEK</a></li>
+            <li class="hover:bg-[#262e92] p-4"><a href="#">COCUK</a></li>
+            <li class="hover:bg-[#262e92] p-4"><a href="#">EKIPMANLAR</a></li>
+            <li class="hover:bg-[#262e92] p-4"><a href="#">TUM URUNLER</a></li>
+            <li class="hover:bg-[#262e92] p-4"><a href="#">SAGLIK VE BESLENME</a></li>
+            <li class="hover:bg-[#262e92] p-4"><a href="#">SERI SONU</a></li>
+            <li class=" mt-10 text-[15px] font-normal hover:bg-[#262e92] p-4"><a href="#">YENI GELENLER</a></li>
+            <li class="text-[15px] font-normal hover:bg-[#262e92] p-4"><a href="#">ATOLYE</a></li>
+            <li class="text-[15px] font-normal hover:bg-[#262e92] p-4"><a href="#">BLOG</a></li>
+          </ul>
+        </nav>
+      </section>
+      
+    
+    <style>
+        #header{
+            border-bottom: 2px solid gray;
+        }
+
+        @media (min-width: 768px){
+            #header{
+                box-shadow: 0 4px 6px -1px rgba(0,0,0);
+            }
+        }
+    </style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!--<a href="#"><i class="ri-question-line"></i> <span class="flex text-[15px]">iletisim</span></a>-->
+<!--<a href="#"></a><i class="ri-user-line"></i> <span>Hesabim</span></a>-->
+<!--<a href="#"></a><i class="ri-shopping-cart-line"></i> <span>Sepetim</span></a>-->
